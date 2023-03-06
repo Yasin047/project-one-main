@@ -102,6 +102,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: bold;
+    color: #4F4F4F;
 }
 
 .color-circle-container {
@@ -141,6 +142,7 @@
     align-items: center;
     font-size: 15px;
     font-weight: 900;
+    color: #2F3841;
 }
 
 
@@ -150,9 +152,29 @@
 }
 
 .delivery-span {
-    margin-top: 5px;
-    font-size: 15px;
+    margin-top: 17px;
+    font-size: 13px;
     font-weight: 600;
+    color: #202020;
+}
+
+.delivery-span span,
+a {
+    color: #4F4F4F;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.delivery-span span a {
+    color: #4F4F4F;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.delivery-span h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .counter {
